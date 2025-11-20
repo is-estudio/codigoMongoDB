@@ -1,0 +1,4 @@
+db.accidentes.aggregate([
+  { $group: { _id: "$mes", total: { $sum: 1 } } },
+  { $group: { _id: null, promedio_mensual: { $avg: "$total" } } }
+]);
