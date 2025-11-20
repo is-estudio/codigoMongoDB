@@ -1,0 +1,3 @@
+db.accidentes.aggregate([
+  { $group: { _id: "$gravedad", total: { $sum: 1 } } }
+]);
