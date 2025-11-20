@@ -1,0 +1,1 @@
+db.accidentes.find({ DIA_NUMERO: { $gte: 16, $lte: 30 } });
