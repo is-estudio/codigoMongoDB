@@ -1,0 +1,11 @@
+db.accidentes.insertOne({
+  orden: 2001,
+  ipat: "A00056000",
+  id_ot: "63130000",
+  transito: "Choque",
+  fecha: ISODate("2023-05-10"),
+  dia_numero: 10,
+  mes: 5,
+  ano: 2023,
+  gravedad: "SOLO DAÑOS"
+});
