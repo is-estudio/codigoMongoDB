@@ -1,0 +1,4 @@
+db.accidentes.aggregate([
+  { $match: { gravedad: "CON MUERTOS" } },
+  { $group: { _id: "$ano", total: { $sum: 1 } } }
+]);
