@@ -1,0 +1,1 @@
+db.accidentes.find({gravedad: "CON HERIDOS",MES: 5});
