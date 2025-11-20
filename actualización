@@ -1,0 +1,4 @@
+db.accidentes.updateOne(
+  { orden: 2001 },
+  { $set: { gravedad: "CON HERIDOS" } }
+);
