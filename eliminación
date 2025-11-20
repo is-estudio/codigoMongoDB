@@ -1,0 +1,1 @@
+db.accidentes.deleteMany({ gravedad: "SOLO DAÑOS" });
