@@ -1,0 +1,2 @@
+db.accidentes.find({DIA_NUMERO: { $in: [1,2] }});
+
